@@ -1,0 +1,23 @@
+[package]
+name = "ssbu-vsync-disabler"
+version = "1.0.0"
+authors = ["Atamol"]
+edition = "2021"
+license = "GPL-3.0-only"
+
+[package.metadata.skyline]
+titleid = "01006A800016E000"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
+once_cell = { version = "1.20.2", default-features = true }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+lto = true

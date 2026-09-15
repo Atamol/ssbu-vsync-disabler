@@ -1,0 +1,5 @@
+/target
+/.gdbinit
+/.gdbinit.switch
+/attach.py
+/print_addr_setup.py
