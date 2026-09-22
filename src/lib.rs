@@ -1,5 +1,3 @@
-#![feature(restricted_std)]
-
 mod log;
 mod offsets;
 

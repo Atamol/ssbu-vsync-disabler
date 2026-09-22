@@ -1,4 +1,3 @@
-//! The mod draws nothing on screen, so `cargo skyline listen` is the only way to see what ran
 use std::sync::OnceLock;
 use std::time::Instant;
 
