@@ -4,7 +4,7 @@
 
 [less-delay](https://github.com/Naxdy/less-delay) の調整版 (13.0.5対応)．
 
-Vsyncを無効化し，シーン更新をVsyncのカウンタに合わせ直すことで入力遅延を1F削ります．
+Vsyncを無効化し，シーン更新をVsyncのカウンタに合わせ直すことで入力遅延を1F削ります (オフライン，VIP，専用部屋すべて)．
 
 [ssbu-combat-latency-slider](https://github.com/Atamol/ssbu-combat-latency-slider)との併用が可能です．
 
