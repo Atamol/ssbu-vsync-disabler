@@ -4,7 +4,7 @@
 
 An adjusted version of [less-delay](https://github.com/Naxdy/less-delay) (13.0.5 compatible).
 
-Disables vsync and re-times the game's scene update onto the vsync counter, cutting 1 frame of input delay.
+Disables vsync and re-times the game's scene update onto the vsync counter, cutting 1 frame of online input delay.
 
 It stacks with [ssbu-combat-latency-slider](https://github.com/Atamol/ssbu-combat-latency-slider).
 
